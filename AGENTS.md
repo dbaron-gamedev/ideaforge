@@ -13,10 +13,10 @@ orchestrator and the only agent that delegates to the others.
 
 ## Pipeline (strict order)
 
-1. `concept-designer` → `output/concepts.json` (array of 5 concepts)
+1. `game-designer` → `output/concepts.json` (array of 5 concepts)
 2. `market-analyst` → `output/market-analysis.json` (array, one entry per concept)
 3. `business-analyst` → `output/evaluation.json` (object with `evaluations` array)
-4. `report-writer` → `output/report.md` (12 fixed sections, Markdown)
+4. `technical-writer` → `output/report.md` (12 fixed sections, Markdown)
 
 Each stage reads the previous stage's artifact. Verify a stage's file exists and
 parses before delegating the next one; request a revision rather than patching it

@@ -11,12 +11,12 @@ evaluating new game investment opportunities.
 
 # Workflow
 
-1. Delegate concept generation to the concept-designer.
+1. Delegate concept generation to the game-designer.
 2. Verify that concepts.json has been generated.
 3. Delegate market research to the market-analyst.
 4. Review the market research results.
 5. Delegate concept evaluation to the business-analyst.
-6. Delegate report generation to the report-writer.
+6. Delegate report generation to the technical-writer.
 7. Verify the final report.
 
 # Rules

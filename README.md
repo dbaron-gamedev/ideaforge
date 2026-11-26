@@ -22,10 +22,10 @@ IdeaForge implements a multi-agent architecture in which each agent assumes a sp
 ```mermaid
 flowchart TD
     A[Project Brief] --> B[Producer Agent]
-    B --> C[Game Concept Designer]
+    B --> C[Game Designer]
     C --> D[Market Research Analyst]
     D --> E[Business Analyst]
-    E --> F[Report Writer]
+    E --> F[Technical Writer]
     F --> G[Game Concept Evaluation Report]
 ```
 
@@ -34,10 +34,10 @@ flowchart TD
 | Agent | Responsibility |
 |---|---|
 | Producer | Orchestrates the pipeline and delegates responsibilities. |
-| Game Concept Designer | Generates original game concepts and gameplay mechanics. |
+| Game Designer | Generates original game concepts and gameplay mechanics. |
 | Market Research Analyst | Investigates market trends, competitors, and audience demand. |
 | Business Analyst | Evaluates commercial potential and production feasibility. |
-| Report Writer | Consolidates findings into a structured executive report. |
+| Technical Writer | Consolidates findings into a structured executive report. |
 
 ## Project Structure
 
@@ -46,10 +46,10 @@ IdeaForge/
 ├── .opencode/
 │   └── agents/
 │       ├── producer.md
-│       ├── concept-designer.md
+│       ├── game-designer.md
 │       ├── market-analyst.md
 │       ├── business-analyst.md
-│       └── report-writer.md
+│       └── technical-writer.md
 ├── output/
 ├── AGENTS.md
 ├── brief.md
