@@ -1,0 +1,702 @@
+[
+  {
+    "concept_id": "concept-1",
+    "market_trends": [
+      "[Fact] Puzzle is one of the largest tags on Steam: 36,696 tagged games, ~$4.3B estimated lifetime gross, ~$150k estimated average and ~$590 estimated median revenue per game, with 76% of tagged games estimated under $5k (games-stats.com tag table, retrieved 2026-11-25; third-party estimates, not Valve data).",
+      "[Fact] Puzzle was among the weakest genres by hit rate in 2025: 14 of 4,022 puzzle releases reached 1,000 reviews (0.34%), against 2.99% across all 2025 releases (Zukowski / VG Insights, 'What the hell happened in 2025?', Jan 2026).",
+      "[Fact] First-person atmospheric puzzlers still produce mid-size hits with long tails: The Talos Principle 2 shows 8,701 English-language reviews (94% positive) and a 7,258 all-time concurrent peak; Superliminal 14,656 reviews; Chants of Sennaar 13,545; Antichamber 10,265; The Witness 9,167 (Steam store pages and SteamCharts, retrieved 2026-11-25).",
+      "[Fact] The sub-genre is still being actively published: The Talos Principle: Reawakened released 10 Apr 2025 and holds 1,208 reviews (Very Positive) on its store page (retrieved 2026-11-25).",
+      "[Fact] GameDiscoverCo's October 2026 Next Fest review states there is 'no major genre trend, just all the existing microtrends playing out in 10-15 different subgenres', and lists 'Environmental Puzzles' (gravity/portal puzzles, awkward task simulators) as one of its tracked trend categories (GDCo newsletter, 17 Nov 2026).",
+      "[Inference] Puzzle buyers reward legible, teachable mechanics and a distinctive visual identity more than production value; comparable titles cluster at CDN$21.99-25.99 and discount aggressively, so a full-price $25+ launch is unlikely to hold.",
+      "[Inference] No commercially significant game has been found in which acoustics is the sole interactive material, so this concept would be creating a category rather than entering one."
+    ],
+    "comparable_games": [
+      {
+        "title": "The Talos Principle 2",
+        "appid": 835960,
+        "released": "2023-11-02",
+        "review_count": "8,701 English-language reviews, 94% positive",
+        "all_time_peak_ccu": 7258,
+        "notes": "Closest high-quality benchmark for 'first-person, systemic, non-combat puzzle'. Proves a ~10k-review ceiling for premium first-person puzzlers and shows strong continued engagement (190 reviews in the last 30 days at time of retrieval)."
+      },
+      {
+        "title": "Superliminal",
+        "appid": 1049410,
+        "released": "2020-11-05",
+        "review_count": "14,656 reviews, Very Positive",
+        "notes": "Single-verb, perspective-manipulation puzzler. Best evidence that a one-idea, short, heavily marketed first-person puzzler can outperform its scope."
+      },
+      {
+        "title": "Chants of Sennaar",
+        "appid": 1931770,
+        "released": "2023-09-05",
+        "review_count": "13,545 reviews, Overwhelmingly Positive",
+        "notes": "Deduction-through-a-single-sense design (language rather than sound). Useful proof that 'the player learns a notation system by ear/eye' is commercially viable and award-friendly."
+      },
+      {
+        "title": "Antichamber",
+        "appid": 219890,
+        "released": "2013-01-31",
+        "review_count": "10,265 reviews, Overwhelmingly Positive",
+        "notes": "Abstract, non-narrative first-person puzzle with an unusual spatial verb. Shows long-tail durability for idiosyncratic puzzle design."
+      },
+      {
+        "title": "Manifold Garden",
+        "appid": 473950,
+        "released": "2020-10-20",
+        "review_count": "4,552 reviews, Overwhelmingly Positive",
+        "notes": "Atmospheric, architecture-as-mechanic puzzler. A realistic lower bound for a beautiful but narrow single-mechanic puzzle game."
+      },
+      {
+        "title": "The Witness",
+        "appid": 210970,
+        "released": "2016-01-26",
+        "review_count": "9,167 English-language reviews, Very Positive",
+        "notes": "Premium-priced pure-logic open puzzler; evidence that teaching a private visual language without text can carry a full-price product."
+      },
+      {
+        "title": "A Little to the Left",
+        "appid": 1629520,
+        "released": "2022-11-08",
+        "review_count": "10,399 English-language reviews, 92% positive",
+        "notes": "Cozy puzzle comparator: shows the adjacent 'calm, tactile puzzle' audience is larger than the hard-logic audience, and that DLC bundles extend revenue."
+      },
+      {
+        "title": "Soundfall",
+        "appid": 1608700,
+        "released": "2022-05-11",
+        "review_count": "997 reviews, Mostly Positive",
+        "notes": "Closest thing found to an audio-driven commercial game (rhythm action). Its modest result is a caution about how narrow the 'audio-first' audience is."
+      },
+      {
+        "title": "The Talos Principle: Reawakened",
+        "appid": 2806640,
+        "released": "2025-04-10",
+        "review_count": "1,208 reviews, Very Positive",
+        "notes": "2025 release showing the franchise's audience is still present, though a remake attracted roughly a seventh of the sequel's review volume."
+      }
+    ],
+    "audience_demand": "[Fact] There is a demonstrated, durable audience for first-person systemic puzzlers: five comparables sit between 4.5k and 14.7k reviews, and the newest franchise entry (Apr 2025) still cleared 1,200 reviews. [Fact] Steam store search for 'acoustic', 'sound puzzle', 'tuning' and 'frequency' returned no title in which acoustics is the primary mechanic, so there is no direct demand signal to measure. [Inference] Addressable demand is therefore a subset of the existing ~10k-review first-person puzzle audience plus a new 'audio enthusiast' segment whose size cannot be established from public data. [Inference] Expect the realistic ceiling to be the Manifold Garden-to-Superliminal band (roughly 4.5k-15k reviews) unless the game becomes a streamer/video phenomenon.",
+    "market_saturation": "[Fact] High at the category level: 36,696 puzzle-tagged games, 76% estimated under $5k lifetime revenue, and a 0.34% rate of reaching 1,000 reviews for 2025 puzzle releases. [Fact] Low at the design level: no acoustic-simulation puzzler was found on Steam, and the first-person puzzler sub-genre receives far fewer releases than 2D puzzle or cozy puzzle. [Inference] The realistic competitive set is roughly 6-10 well-known first-person puzzlers, not 36,696 games; saturation is a discoverability problem, not a head-to-head competition problem.",
+    "opportunities": [
+      "The verb is novel and highly clip-able: 'retune the room until the tone arrives' is a six-second video that explains the game, which matters because short-form video is the dominant discovery channel for indies (GDCo, 2026).",
+      "Low content cost per hour: 30 handcrafted chambers plus modular kits fits a five-person, 12-month, $300k CAD budget with no NPC, animation or networking cost.",
+      "Price positioning at $19.99-$24.99 is consistent with every successful comparable (Antichamber CDN$21.99, Manifold Garden CDN$25.99, Superliminal CDN$25.99), so no price education is needed.",
+      "The genre's buyers are omnivorous and award-voting: Chants of Sennaar, Antichamber and Manifold Garden all sit at Overwhelmingly Positive, which means strong review scores are achievable and are the main organic growth lever.",
+      "Soundtrack/art-book bundle is a natural fit for an audio-led game and matches the premium bundle behaviour seen on The Talos Principle 2's store page.",
+      "Steam Deck and Linux support is cheap for a non-action game and widens the addressable base without design compromise."
+    ],
+    "risks": [
+      "[Inference] Accessibility is the central commercial risk: a game whose only verb is listening excludes Deaf and hard-of-hearing players and anyone on laptop speakers, and a full visual fallback risks removing the differentiator. No accessibility data was found to size this, but it is a design constraint that must be solved before a store page exists.",
+      "[Fact] Puzzle is a low-hit-rate genre: 0.34% of 2025 puzzle releases reached 1,000 reviews, versus 2.99% for all releases (Zukowski, Jan 2026).",
+      "[Fact] Gimmick-led designs are the most clone-able category according to Zukowski's November 2026 'how clone-proof is your game' test (built on a gimmick, art not differentiating, predictable design, systematic content). This concept scores badly on three of four.",
+      "[Inference] Unity wave-propagation simulation that stays legible and performant on mid-range hardware is a genuine engineering risk for a single systems programmer; if the simulation is not readable, reviews will punish it immediately.",
+      "[Fact] The nearest audio-first comparable, Soundfall, reached only 997 reviews, which suggests 'audio' as a selling point is not itself a demand driver.",
+      "[Inference] No marketing template exists for this concept, so the trailer must teach an unfamiliar verb without a reference point ('it's like X but with sound' has no X)."
+    ],
+    "sources": [
+      {
+        "title": "Steam Tags Stats (tag-level game counts and revenue estimates)",
+        "url": "https://games-stats.com/steam/tags/",
+        "accessed": "2026-11-25"
+      },
+      {
+        "title": "What the hell happened in 2025? (Chris Zukowski, VG Insights data)",
+        "url": "https://howtomarketagame.com/2026/01/27/what-the-hell-happened-in-2025/",
+        "accessed": "2026-11-25"
+      },
+      {
+        "title": "Steam Niches in 2026: Which Genres Are Filling Up Fastest",
+        "url": "https://www.steampageanalyzer.com/blog/steam-niches-2026-filling-fastest",
+        "accessed": "2026-11-25"
+      },
+      {
+        "title": "Examining PC game trends: beyond the Steam tag! (GameDiscoverCo)",
+        "url": "https://newsletter.gamediscover.co/p/examining-pc-game-trends-beyond-the",
+        "accessed": "2026-11-25"
+      },
+      {
+        "title": "The Talos Principle 2 - Steam store page",
+        "url": "https://store.steampowered.com/app/835960/The_Talos_Principle_2/",
+        "accessed": "2026-11-25"
+      },
+      {
+        "title": "The Talos Principle 2 - SteamCharts concurrent player history",
+        "url": "https://steamcharts.com/app/835960",
+        "accessed": "2026-11-25"
+      },
+      {
+        "title": "Chants of Sennaar / Antichamber / Manifold Garden / Superliminal / The Witness / Soundfall / The Talos Principle: Reawakened - Steam store pages",
+        "url": "https://store.steampowered.com/app/1931770/",
+        "accessed": "2026-11-25",
+        "note": "Individual store pages retrieved for appids 1931770, 219890, 473950, 1049410, 210970, 1608700 and 2806640; review counts quoted above are as displayed on those pages."
+      },
+      {
+        "title": "Newzoo 2026 Global Games Market Report key numbers",
+        "url": "https://newzoo.com/articles/2026-global-games-market-key-numbers",
+        "accessed": "2026-11-25",
+        "note": "Direct fetch returned HTTP 403; figures ($213.9B global 2026, +6.1%; PC $45.9B, +5.3%) were taken from the search-result summary of this page and cross-checked against the Newzoo executive-summary page snippet. Not independently verified on-page."
+      }
+    ],
+    "research_confidence": "medium",
+    "research_confidence_rationale": "Genre-level supply and hit-rate data is strong and comes from three independent trackers. Confidence is held at medium because there is no direct comparable for an acoustics-only puzzle game: all demand estimates are extrapolated from adjacent first-person puzzlers, and the accessibility question that most affects addressable market could not be quantified from public sources.",
+    "data_gaps": [
+      "No public sales or revenue figure for any comparable first-person puzzler was verifiable; only review counts, prices and concurrent-player peaks.",
+      "No data exists on the size of the 'audio enthusiast' PC audience.",
+      "games-stats revenue figures are third-party estimates and were treated as directional only."
+    ]
+  },
+  {
+    "concept_id": "concept-2",
+    "market_trends": [
+      "[Fact] Narrative was the single most productive genre for 2025 Steam hits: 51 narrative games reached 1,000+ reviews, moving it to #1 ahead of Simulation (43) and Horror (39) (Zukowski / VG Insights, Jan 2026).",
+      "[Fact] Turn-based strategy is losing share of hits: the Turn-Based Strategy tag fell 19 positions between 2021 and 2025 in GameDiscoverCo's analysis of tags on new games selling >50k copies (GDCo, 25 Aug 2026).",
+      "[Fact] Adjacent 2025 releases performed respectably: The Séance of Blake Manor (27 Oct 2025) holds 3,386 reviews (Very Positive) and Rue Valley (11 Nov 2025) holds 1,956 reviews (Mostly Positive) on their store pages.",
+      "[Fact] Tag-level medians are higher for text/politics than for puzzle: Political Sim 1,216 games at ~$1,500 estimated median; Turn-Based Strategy 9,492 games at ~$1,100; Text-Based 6,307 games at ~$760 (games-stats.com, third-party estimates).",
+      "[Fact] Suzerain, the closest structural comparator (text-first political simulation), holds 7,321 reviews (Very Positive) and a 3,333 all-time concurrent peak; Citizen Sleeper holds 6,567 reviews and Cultist Simulator 5,359 (Steam store pages, SteamCharts, retrieved 2026-11-25).",
+      "[Inference] The commercially proven pattern in this space is 'systems plus text plus a strong premise' at a $20-$30 price, not map-painting or unit tactics; buyers are readers who want consequence modelling.",
+      "[Inference] Broadcasting/propaganda as a fantasy is proven on screen but not in strategy: Not For Broadcast, the best-known broadcast game, peaked at 848 concurrent players."
+    ],
+    "comparable_games": [
+      {
+        "title": "Suzerain",
+        "appid": 1207650,
+        "released": "2020-12-04",
+        "review_count": "7,321 reviews, Very Positive",
+        "all_time_peak_ccu": 3333,
+        "notes": "The benchmark for text-first political simulation with delayed consequences. Proves a real audience at CDN$29.99 and shows that a niche political sim can sustain years of updates and DLC."
+      },
+      {
+        "title": "Citizen Sleeper",
+        "appid": 1578650,
+        "released": "2022-05-05",
+        "review_count": "6,567 reviews, Very Positive",
+        "notes": "Turn-based narrative sim with a small systems layer and heavy text. Evidence that 'one week at a time, read the fallout' pacing works commercially."
+      },
+      {
+        "title": "Cultist Simulator",
+        "appid": 718670,
+        "released": "2018-05-31",
+        "review_count": "5,359 reviews, Mostly Positive",
+        "notes": "Text-and-systems simulation with intentionally opaque consequences. Shows both the ceiling and the review risk of systems whose causality is hard to read (Mostly Positive rather than Very Positive)."
+      },
+      {
+        "title": "This War of Mine",
+        "appid": 282070,
+        "released": "2014-11-14",
+        "review_count": "23,163 reviews, Very Positive",
+        "notes": "Upper bound for 'civilian perspective on conflict' framing; demonstrates that the moral-weight premise, not the tactics, is the marketable element."
+      },
+      {
+        "title": "Killer Frequency",
+        "appid": 1903620,
+        "released": "2023-06-01",
+        "review_count": "3,856 reviews, Very Positive",
+        "notes": "Radio-broadcast premise played as horror-comedy. Closest evidence that an audio/broadcast fantasy can sell, and that it works better with a genre hook than as pure simulation."
+      },
+      {
+        "title": "Not For Broadcast",
+        "appid": 1147550,
+        "review_count": "Not retrievable (store page did not expose a review summary during retrieval)",
+        "all_time_peak_ccu": 848,
+        "notes": "The best-known broadcast-management game. Its 848 concurrent peak is a caution about the size of the broadcast-fantasy audience; review count could not be verified, so no ratio to Suzerain should be inferred."
+      },
+      {
+        "title": "Rue Valley",
+        "appid": 2126190,
+        "released": "2025-11-11",
+        "review_count": "1,956 reviews, Mostly Positive",
+        "notes": "Recent narrative-sim release, cited by Zukowski as part of the 2025 narrative wave. Shows a new IP in this space can clear ~2k reviews in its first year."
+      },
+      {
+        "title": "The Séance of Blake Manor",
+        "appid": 1395520,
+        "released": "2025-10-27",
+        "review_count": "3,386 English-language reviews, Very Positive",
+        "notes": "2025 narrative investigation game; evidence that text/document-heavy design with a strong setting still finds an audience this year."
+      }
+    ],
+    "audience_demand": "[Fact] Suzerain's 7,321 reviews and 3,333 concurrent peak, plus Citizen Sleeper's 6,567 and Cultist Simulator's 5,359, establish a real multi-thousand-review audience for text-first political simulation. [Fact] Narrative as a whole was the top hit-producing genre in 2025 with 51 games over 1,000 reviews. [Inference] Demand for the specific 'influence a conflict only through media' fantasy is unproven: the nearest broadcast game peaked at 848 concurrent players, and no comparable implements delayed misinterpretation across factions. [Inference] Expect the addressable audience to be smaller than Suzerain's unless the writing quality and the 'watch them misread you' hook are exceptional, because the fantasy is harder to demonstrate in a screenshot than a political map.",
+    "market_saturation": "[Fact] Crowded by volume but not by design: 9,492 turn-based strategy games and 43,717 strategy-tagged games exist, yet the Political Sim tag covers only 1,216 games. [Fact] Turn-based strategy lost 19 positions of hit share between 2021 and 2025, meaning the tag is not where growth is. [Inference] Direct competition is minimal (Suzerain, Not For Broadcast, Orwell, Killer Frequency are the realistic set), so saturation is low; the binding constraint is discoverability and the reader's patience, not rivals.",
+    "opportunities": [
+      "Lowest art cost of the five concepts: 2D node map, portraits and UI, with no rigs, no 3D and no networking, which leaves budget for writing volume, the actual product.",
+      "Narrative is the #1 hit-producing genre on Steam in 2025, and the audience is readers who buy multiple titles per year rather than one blockbuster.",
+      "A 'broadcast' premise generates press and creator interest disproportionate to budget because it is easy to describe in a headline and produces good anecdote-driven coverage.",
+      "Text-heavy design localises cheaply (no VO), which matters because Zukowski's 2025 data shows translated narrative titles, including a wave of Chinese FMV games, are reaching Western audiences.",
+      "Premium $19.99-$24.99 with a supporter pack matches Suzerain's model and its demonstrated long tail through paid expansions.",
+      "Delayed, cascading consequences give the game a natural 'tell me what happened in your run' social hook, which supports organic word of mouth."
+    ],
+    "risks": [
+      "[Fact] Turn-based strategy is declining in hit share (down 19 tag positions 2021-2025, GDCo), so the genre label itself will not carry discovery.",
+      "[Inference] Text-heavy store pages convert poorly: screenshots of prose and menus are the weakest possible Steam page assets, and this concept has no obvious visual hook beyond a hand-drawn map.",
+      "[Fact] The broadcast-fantasy comparator, Not For Broadcast, peaked at 848 concurrent players, which is small relative to the writing investment the concept requires.",
+      "[Inference] Content volume is the real budget risk: to make consequences feel coherent the game needs a large reactive text corpus, and under-delivering reads as 'shallow' in reviews; Suzerain's scope was built over years of post-launch expansion.",
+      "[Inference] Comparison to Suzerain is unavoidable and unfavourable for a five-person team, which risks 'not as deep as Suzerain' as the dominant review framing.",
+      "[Inference] A no-combat, no-unit-control strategy game is hard to communicate in a 30-second trailer and may be mis-tagged by players, hurting Steam's recommendation placement."
+    ],
+    "sources": [
+      {
+        "title": "What the hell happened in 2025? (Chris Zukowski, VG Insights data)",
+        "url": "https://howtomarketagame.com/2026/01/27/what-the-hell-happened-in-2025/",
+        "accessed": "2026-11-25"
+      },
+      {
+        "title": "How have the genres of hit PC games changed since 2021? (GameDiscoverCo)",
+        "url": "https://newsletter.gamediscover.co/p/how-have-the-genres-of-hit-pc-games",
+        "accessed": "2026-11-25"
+      },
+      {
+        "title": "Steam Tags Stats (tag-level game counts and revenue estimates)",
+        "url": "https://games-stats.com/steam/tags/",
+        "accessed": "2026-11-25"
+      },
+      {
+        "title": "Suzerain - Steam store page",
+        "url": "https://store.steampowered.com/app/1207650/Suzerain/",
+        "accessed": "2026-11-25"
+      },
+      {
+        "title": "Suzerain / Not For Broadcast - SteamCharts concurrent player history",
+        "url": "https://steamcharts.com/app/1207650",
+        "accessed": "2026-11-25",
+        "note": "Not For Broadcast history at https://steamcharts.com/app/1147550"
+      },
+      {
+        "title": "Citizen Sleeper / Cultist Simulator / Killer Frequency / This War of Mine / Rue Valley / The Seance of Blake Manor - Steam store pages",
+        "url": "https://store.steampowered.com/app/1578650/",
+        "accessed": "2026-11-25",
+        "note": "Individual store pages retrieved for appids 1578650, 718670, 1903620, 282070, 2126190 and 1395520."
+      },
+      {
+        "title": "Steam Niches in 2026: Which Genres Are Filling Up Fastest",
+        "url": "https://www.steampageanalyzer.com/blog/steam-niches-2026-filling-fastest",
+        "accessed": "2026-11-25"
+      }
+    ],
+    "research_confidence": "medium",
+    "research_confidence_rationale": "Genre and comparator data is reliable, and Suzerain provides a strong structural benchmark. Confidence is limited to medium because the defining mechanic (media influence with delayed misinterpretation) has no direct comparable, and the closest broadcast-fantasy game's review count could not be retrieved, leaving the size of that specific audience unresolved.",
+    "data_gaps": [
+      "Not For Broadcast review count and revenue could not be retrieved; only its concurrent-player peak (848) was verifiable.",
+      "Orwell: Keeping an Eye On You store page did not expose a review summary during retrieval, so it was excluded from quantitative comparison.",
+      "No verified sales figures exist for any comparator; all demand reasoning uses review counts and CCU peaks as proxies."
+    ]
+  },
+  {
+    "concept_id": "concept-3",
+    "market_trends": [
+      "[Fact] Cozy is among the five fastest-growing Steam niches, though not the largest: Steam Page Analyzer ranks Shop Keeper (+634%), Bullet Heaven (+406%), Automation (+170%), Idler (+150%) and Cozy (+143%) as the 2026 growth leaders. Concretely, 1,041 cozy games released between 1 Jan and 27 Sep 2026 against 428 in the same weeks of 2025 (+143%), and 11% of the Jan 2024-Jun 2025 cozy cohort reached 1,000 reviews (Steam Page Analyzer, Sep 2026).",
+      "[Fact] Farming Sim releases grew 37% year-on-year (263 to 361) with an 8% rate of reaching 1,000 reviews, and Zukowski's separate 2025 measure shows farming's hit rate falling from 20.83% in 2024 to 8.3% in 2025.",
+      "[Fact] Simulation was the #2 genre by number of 2025 hits (43 games over 1,000 reviews) with a 4.1% hit rate, up from 3.76% in 2024 (Zukowski, Jan 2026).",
+      "[Fact] Cozy has 2,730 unreleased Steam pages and 333 dated to launch within 90 days, against a 'normal' 158 in a comparable 2025 window, so supply pressure is still increasing (Steam Page Analyzer, Sep 2026).",
+      "[Fact] Tag medians favour management over nature themes: Management 14,247 games at ~$2,100 estimated median, Farming Sim 2,771 games at ~$1,500, Colony Sim 13.7% hit rate, versus Nature 8,969 games at ~$380 estimated median (games-stats.com, third-party estimates).",
+      "[Fact] PC revenue is forecast at $45.9B in 2026, up 5.3%, while Steam releases grew about 45% year-on-year to late September 2026 (Newzoo via search summary; Steam Page Analyzer) - supply is outrunning the pie.",
+      "[Inference] The cozy boom has shifted from 'audience growth' to 'supply growth'; differentiation now has to come from systemic depth or an unfamiliar perspective rather than from theme or tone."
+    ],
+    "comparable_games": [
+      {
+        "title": "Stardew Valley",
+        "appid": 413150,
+        "released": "2016-02-26",
+        "review_count": "398,140 reviews, Overwhelmingly Positive",
+        "all_time_peak_ccu": 236614,
+        "notes": "The category-defining outlier. Establishes the ceiling and the audience's appetite for systemic farming, but is not a realistic comparison for a 12-month, five-person project."
+      },
+      {
+        "title": "Slime Rancher",
+        "appid": 433340,
+        "released": "2017-08-01",
+        "review_count": "66,135 reviews, Overwhelmingly Positive",
+        "notes": "Management-plus-ecosystem with an indirect, hands-off feel. Best evidence that 'tend a living system' can be a mass-market cozy fantasy."
+      },
+      {
+        "title": "Dorfromantik",
+        "appid": 1455840,
+        "released": "2022-04-28",
+        "review_count": "15,858 reviews, Overwhelmingly Positive",
+        "all_time_peak_ccu": 7063,
+        "notes": "Calm, systemic, no-combat builder with a single clear verb. The most realistic quality-and-scope benchmark for this concept."
+      },
+      {
+        "title": "ISLANDERS",
+        "appid": 1046030,
+        "released": "2019-04-04",
+        "review_count": "10,228 reviews, Overwhelmingly Positive",
+        "notes": "Minimal-input, maximal-consequence city builder at a low price. Proves a small, elegant systemic game can reach ~10k reviews."
+      },
+      {
+        "title": "Rusty's Retirement",
+        "appid": 2666510,
+        "released": "2024-04-26",
+        "review_count": "6,633 reviews, Overwhelmingly Positive",
+        "notes": "Idle/ambient farming that runs at the bottom of the screen. Strong evidence for 'low-attention, watch-it-grow' farming and for the desktop-idle appetite that a patient soil sim could exploit."
+      },
+      {
+        "title": "Terra Nil",
+        "appid": 1593030,
+        "released": "2023-03-28",
+        "review_count": "5,052 reviews, Very Positive",
+        "all_time_peak_ccu": 4540,
+        "notes": "Ecology restoration puzzler. Closest 'save the ecosystem' fantasy; shows the ceiling for eco-themed systemic games is around 5k reviews at premium price."
+      },
+      {
+        "title": "The Wandering Village",
+        "appid": 1121640,
+        "released": "2025-07-17",
+        "review_count": "4,098 English-language reviews, Very Positive",
+        "notes": "Indirect-control colony sim on a living creature. Directly relevant precedent for 'manage a system that is itself alive', and for a long Early Access runway before 1.0."
+      },
+      {
+        "title": "Roots of Pacha",
+        "appid": 1245560,
+        "released": "2023-04-25",
+        "review_count": "2,530 English-language reviews, Very Positive",
+        "notes": "Farming sim with a distinct (prehistoric, communal) angle. Shows that a fresh framing inside a crowded genre still lands around 2.5k reviews rather than breaking out."
+      },
+      {
+        "title": "Mycelium Heaven",
+        "appid": 2656520,
+        "released": "2025-02-27",
+        "review_count": "24 reviews, Positive",
+        "notes": "Cautionary data point: a 2025 mycelium-themed game reached only 24 reviews. The theme has no built-in audience."
+      }
+    ],
+    "audience_demand": "[Fact] The cozy/farming audience is large and proven: Stardew Valley's 398k reviews and Slime Rancher's 66k show the ceiling, and Dorfromantik's 15.9k and ISLANDERS' 10.2k show a mid-size systemic cozy game can succeed. [Fact] The specific fantasy ('you are the soil, the farmer acts autonomously') has no direct comparator; the nearest are The Wandering Village (4,098 reviews) and Terra Nil (5,052). [Fact] A mycelium-themed 2025 release reached 24 reviews, indicating the theme itself carries no demand. [Inference] Demand for the audience is high, demand for the fantasy is unproven, and the realistic ceiling is the 4k-16k review band depending on how legible the indirect feedback loop is.",
+    "market_saturation": "[Fact] High and worsening: cozy releases +143% year-on-year, 333 cozy titles dated to launch within 90 days, and farming's hit rate falling from 20.83% to 8.3% in a single year. [Fact] Nature-tagged games (8,969) earn an estimated ~$380 median, far below Management's ~$2,100, so eco framing is associated with weaker commercial outcomes. [Inference] Saturation is severe in the adjacent space but effectively zero in the specific 'below-ground ecology, indirect influence' space, so the concept's problem is being heard over the cozy noise rather than beating a specific rival.",
+    "opportunities": [
+      "The cross-section art direction is a genuine thumbnail advantage in a category where most store pages look like the same sunlit farm.",
+      "Rusty's Retirement (6,633 reviews) shows a large appetite for low-attention farming that can be watched rather than micromanaged, which is exactly this concept's pacing.",
+      "Simulation has the highest estimated tag median of any of the five concepts' genres (~$2,100) and a stable 4.1% hit rate, so a well-executed entry is priced into a healthier revenue band than puzzle or action roguelike.",
+      "Management/simulation buyers tolerate Early Access and long tails, and the concept supports a paid expansion season (new climate and crop family) that fits the genre's DLC norms.",
+      "Indirect influence is an underexploited design space: no comparable asks the player to make conditions rather than decisions, which is a legitimate press angle.",
+      "2D layered art with limited animation keeps a five-person team inside budget while still looking authored."
+    ],
+    "risks": [
+      "[Fact] Cozy supply is growing +143% with 333 titles launching inside a 90-day window, so launch-window visibility is the hardest it has been.",
+      "[Fact] Farming Sim's hit rate fell from 20.83% (2024) to 8.3% (2025), which is a direct warning that the adjacent audience is no longer absorbing new entrants at the old rate.",
+      "[Fact] Nature-tagged games carry an estimated ~$380 median revenue, and a 2025 mycelium game reached 24 reviews: eco themes are not a demand driver.",
+      "[Inference] 'Indirect control' may read to cozy buyers as 'the game plays itself'; the audience for Stardew-style agency may bounce off a design where the farmer ignores them.",
+      "[Inference] A nutrient/water/mineral simulation risks the same legibility failure as any systems game: if players cannot see why the orchard failed, they will attribute it to randomness and review accordingly.",
+      "[Inference] Cozy buyers are price-sensitive and discount-driven; a $24.99 launch in a category flooded with $9.99-14.99 entries is a conversion risk."
+    ],
+    "sources": [
+      {
+        "title": "Steam Niches in 2026: Which Genres Are Filling Up Fastest",
+        "url": "https://www.steampageanalyzer.com/blog/steam-niches-2026-filling-fastest",
+        "accessed": "2026-11-25"
+      },
+      {
+        "title": "What the hell happened in 2025? (Chris Zukowski, VG Insights data)",
+        "url": "https://howtomarketagame.com/2026/01/27/what-the-hell-happened-in-2025/",
+        "accessed": "2026-11-25"
+      },
+      {
+        "title": "Steam Tags Stats (tag-level game counts and revenue estimates)",
+        "url": "https://games-stats.com/steam/tags/",
+        "accessed": "2026-11-25"
+      },
+      {
+        "title": "Stardew Valley - Steam store page",
+        "url": "https://store.steampowered.com/app/413150/Stardew_Valley/",
+        "accessed": "2026-11-25"
+      },
+      {
+        "title": "Stardew Valley / Dorfromantik / Terra Nil - SteamCharts concurrent player history",
+        "url": "https://steamcharts.com/app/413150",
+        "accessed": "2026-11-25",
+        "note": "Dorfromantik at https://steamcharts.com/app/1455840, Terra Nil at https://steamcharts.com/app/1593030"
+      },
+      {
+        "title": "Dorfromantik / ISLANDERS / Rusty's Retirement / Terra Nil / The Wandering Village / Roots of Pacha / Slime Rancher / Mycelium Heaven - Steam store pages",
+        "url": "https://store.steampowered.com/app/1455840/",
+        "accessed": "2026-11-25",
+        "note": "Individual store pages retrieved for appids 1455840, 1046030, 2666510, 1593030, 1121640, 1245560, 433340 and 2656520."
+      },
+      {
+        "title": "Newzoo 2026 Global Games Market Report key numbers",
+        "url": "https://newzoo.com/articles/2026-global-games-market-key-numbers",
+        "accessed": "2026-11-25",
+        "note": "Direct fetch returned HTTP 403; PC revenue figure ($45.9B, +5.3%) taken from the search-result summary of this page. Not independently verified on-page."
+      }
+    ],
+    "research_confidence": "medium",
+    "research_confidence_rationale": "Supply-side and hit-rate data for cozy/farming/simulation is strong and recent. Confidence is capped at medium because the concept's core fantasy has no direct comparable, the nearest indirect-control games sit at 4-5k reviews, and the 2025 mycelium data point is too small to support inference in either direction.",
+    "data_gaps": [
+      "No verified revenue figures for any cozy or ecology comparator; all comparisons use review counts, CCU and third-party medians.",
+      "No data found on how many 'indirect control' or 'autonomous agent' management games exist, so the competitive set for the specific mechanic could not be counted.",
+      "games-stats medians are third-party estimates and were used as directional indicators only."
+    ]
+  },
+  {
+    "concept_id": "concept-4",
+    "market_trends": [
+      "[Fact] Roguelite was the #1 genre tag among 2025's hit PC games, up 39 positions from 2021, with Roguelike at #2, up 37 positions (GameDiscoverCo, 25 Aug 2026, analysing tags on new games selling >50k copies).",
+      "[Fact] Action Roguelike is simultaneously one of the most saturated: 11,540 tagged games at an estimated ~$510 median revenue, and only 3.5% of the Jan 2024-Jun 2025 action-roguelike cohort reached 1,000 reviews, below Steam's 4.2% average (Steam Page Analyzer, Sep 2026).",
+      "[Fact] Action Roguelike releases grew 57% year-on-year (957 to 1,505 by 27 Sep 2026) on top of 4,856 unreleased pages already live on Steam (Steam Page Analyzer, Sep 2026).",
+      "[Fact] The platformer framing is a drag: 2D Platformer had a 0.18% rate of reaching 1,000 reviews in 2025 (3 of 1,658 releases), and the 2.5D tag carries an estimated ~$400 median (Zukowski Jan 2026; games-stats).",
+      "[Fact] The best-in-class comparables are enormous: Hades 143,486 reviews with a 54,015 concurrent peak; Dead Cells 44,940; Nine Sols 20,948; Skul: The Hero Slayer 9,715 reviews with an 18,876 peak (Steam store pages, SteamCharts, retrieved 2026-11-25).",
+      "[Fact] Median price for hit PC games fell from $19.99 (2021) to $16.99 (2025) in GameDiscoverCo's sample, so premium pricing must be justified by perceived replay value.",
+      "[Inference] Demand is the strongest of the five concepts, but the sub-genre is the most crowded; the winning position is a legible mechanical hook plus exceptional combat feel, not 'another roguelite'."
+    ],
+    "comparable_games": [
+      {
+        "title": "Hades",
+        "appid": 1145360,
+        "released": "2020-09-17",
+        "review_count": "143,486 reviews, Overwhelmingly Positive",
+        "all_time_peak_ccu": 54015,
+        "notes": "Category ceiling. Proves that a narrative-driven action roguelite with superb feel can reach mass audience; also sets the quality bar reviewers will compare against."
+      },
+      {
+        "title": "Skul: The Hero Slayer",
+        "appid": 1147560,
+        "released": "2021-01-20",
+        "review_count": "9,715 reviews, Very Positive",
+        "all_time_peak_ccu": 18876,
+        "notes": "The direct mechanical precedent: the protagonist swaps between enemy-derived skull forms with different movesets. Essential comparison for 'Borrowed Blade', and the most likely source of 'this is like Skul' positioning."
+      },
+      {
+        "title": "Dead Cells",
+        "appid": 588650,
+        "released": "2018-08-06",
+        "review_count": "44,940 reviews, Overwhelmingly Positive",
+        "notes": "2D action roguelite with best-in-class traversal feel; demonstrates the long-tail benefit of tight controls and post-launch updates."
+      },
+      {
+        "title": "Nine Sols",
+        "appid": 1809540,
+        "released": "2024-05-28",
+        "review_count": "20,948 reviews, Overwhelmingly Positive",
+        "notes": "Recent 2D action success built on a distinct parry mechanic. Shows a new mechanical identity can still break through in 2024-25 at CDN$39.99."
+      },
+      {
+        "title": "Rogue Legacy 2",
+        "appid": 1253920,
+        "released": "2022-04-28",
+        "review_count": "7,744 reviews, Very Positive",
+        "notes": "Meta-progression roguelite with inherited traits; a realistic mid-tier benchmark for a small-team action roguelite."
+      },
+      {
+        "title": "Blasphemous 2",
+        "appid": 2114740,
+        "released": "2023-08-24",
+        "review_count": "6,364 reviews, Very Positive",
+        "notes": "2.5D-adjacent action platformer with strong art direction. Illustrates the ~6k-review band for well-made but non-innovative 2D action."
+      }
+    ],
+    "audience_demand": "[Fact] Demand is unambiguous: Hades at 143k reviews and a 54k concurrent peak, Dead Cells at 45k, and even the directly comparable Skul at 9.7k reviews / 18.9k peak. Roguelite is the #1 tag among 2025's hit games. [Inference] A form-stealing hook is highly demonstrable in short video, which historically correlates with wishlist velocity, and the 'borrow the enemy's moveset' idea is immediately legible because Skul already taught the audience the concept. [Inference] Realistic ceiling for a five-person, 12-month entry is the 5k-15k review band (Rogue Legacy 2 to Skul), not the Hades band.",
+    "market_saturation": "[Fact] The most saturated of the five concepts: 11,540 action-roguelike games, a 3.5% hit rate below Steam's 4.2% average, +57% release growth in 2026, and 4,856 unreleased pages. [Fact] Steam Page Analyzer explicitly flags action roguelike and tower defence as the combination 'to fear: a flood of new games into a niche whose existing games already struggle'. [Inference] Saturation is severe at the genre level and moderate at the mechanic level (few games implement form-stealing as the core verb), but genre-level noise will dominate discovery.",
+    "opportunities": [
+      "Highest proven demand of the five concepts: roguelite is the #1 tag among 2025 hits, and the direct mechanical precedent (Skul) reached 9.7k reviews and an 18.9k concurrent peak.",
+      "The hook is instantly demonstrable: 'wear the enemy you just killed' explains itself in a GIF, which is the single most important asset for Steam and short-form discovery.",
+      "Roguelite structure delivers high replay value per dollar, which defends a $19.99-$24.99 price in a market where the median hit price fell to $16.99.",
+      "Handcrafted room modules rather than procedural 3D keep environment cost low, and a limited form set (8-10) bounds animation scope.",
+      "Strong Steam Deck fit and a natural cosmetic DLC/palette pack for post-launch revenue.",
+      "Form decay creates built-in tension that is easy to show and easy for creators to narrate, which supports organic coverage."
+    ],
+    "risks": [
+      "[Fact] Action roguelike has a 3.5% hit rate, below Steam's 4.2% average, with 1,849 games in the measured cohort and +57% supply growth in 2026.",
+      "[Fact] The 2D Platformer tag's 2025 hit rate was 0.18%, so the platformer half of the pitch is a discoverability liability even though it is core to the design.",
+      "[Inference] Combat feel is the make-or-break variable and requires a specialist combat designer plus animator inside a five-person team; without them the game will be compared unfavourably to Hades and Dead Cells within minutes of any demo.",
+      "[Inference] Animation volume is the hidden cost: 8-10 forms x 6 enemy archetypes x traversal quirks is a large state matrix for 12 months, and cutting forms late would remove the USP.",
+      "[Fact] Skul already occupies this exact mechanical space with 9.7k reviews, so the concept will be positioned as derivative unless the form-decay and traversal angle is visibly different.",
+      "[Inference] Roguelite buyers are the most demanding and most comparative audience on Steam; 'good but not great' combat reads as Mixed, and Mixed action roguelites rarely recover."
+    ],
+    "sources": [
+      {
+        "title": "How have the genres of hit PC games changed since 2021? (GameDiscoverCo)",
+        "url": "https://newsletter.gamediscover.co/p/how-have-the-genres-of-hit-pc-games",
+        "accessed": "2026-11-25"
+      },
+      {
+        "title": "Steam Niches in 2026: Which Genres Are Filling Up Fastest",
+        "url": "https://www.steampageanalyzer.com/blog/steam-niches-2026-filling-fastest",
+        "accessed": "2026-11-25"
+      },
+      {
+        "title": "What the hell happened in 2025? (Chris Zukowski, VG Insights data)",
+        "url": "https://howtomarketagame.com/2026/01/27/what-the-hell-happened-in-2025/",
+        "accessed": "2026-11-25"
+      },
+      {
+        "title": "Steam Tags Stats (tag-level game counts and revenue estimates)",
+        "url": "https://games-stats.com/steam/tags/",
+        "accessed": "2026-11-25"
+      },
+      {
+        "title": "Hades - Steam store page",
+        "url": "https://store.steampowered.com/app/1145360/Hades/",
+        "accessed": "2026-11-25"
+      },
+      {
+        "title": "Hades / Skul: The Hero Slayer - SteamCharts concurrent player history",
+        "url": "https://steamcharts.com/app/1145360",
+        "accessed": "2026-11-25",
+        "note": "Skul at https://steamcharts.com/app/1147560"
+      },
+      {
+        "title": "Skul: The Hero Slayer / Dead Cells / Nine Sols / Rogue Legacy 2 / Blasphemous 2 - Steam store pages",
+        "url": "https://store.steampowered.com/app/1147560/",
+        "accessed": "2026-11-25",
+        "note": "Individual store pages retrieved for appids 1147560, 588650, 1809540, 1253920 and 2114740."
+      }
+    ],
+    "research_confidence": "high",
+    "research_confidence_rationale": "This is the best-documented of the five concepts: three independent trackers agree on both the demand signal (roguelite is the top hit tag) and the saturation signal (3.5% hit rate, +57% supply growth), and there is a direct mechanical precedent (Skul) with verified review and CCU data. Residual uncertainty is about execution quality, not market conditions.",
+    "data_gaps": [
+      "No verified revenue figure for any action-roguelike comparator; review counts and CCU peaks were used as proxies.",
+      "Steam Page Analyzer's 3.5% figure uses a 1,000-review threshold as a revenue proxy, not measured revenue.",
+      "No public data on how many games implement enemy-form-stealing as the core mechanic, so mechanic-level saturation could not be counted."
+    ]
+  },
+  {
+    "concept_id": "concept-5",
+    "market_trends": [
+      "[Fact] Narrative was the #1 genre for 2025 Steam hits with 51 games over 1,000 reviews, and Zukowski explicitly classifies detective games inside that bucket (Zukowski / VG Insights, Jan 2026).",
+      "[Fact] Deduction-adjacent tags carry higher estimated medians than puzzle: Detective 4,954 games at ~$1,600 median, Investigation 6,190 games at ~$1,100, Mystery 16,752 games at ~$1,100, versus Puzzle at ~$590 (games-stats.com, third-party estimates).",
+      "[Fact] A cluster of deduction games shipped in the last two years and all found audiences: The Roottrees are Dead (15 Jan 2025, 5,278 reviews, Overwhelmingly Positive), Duck Detective: The Secret Salami (23 May 2024, 4,867), The Séance of Blake Manor (27 Oct 2025, 3,386), The Rise of the Golden Idol (12 Nov 2024, 2,574), Lorelei and the Laser Eyes (16 May 2024, 2,270) - all from Steam store pages retrieved 2026-11-25.",
+      "[Fact] The Financial Times has framed this as a genre birth: 'The Roottrees are Dead - and the birth of a new gaming genre', describing 'a wave of deduction games' (headline and summary seen in search results; full article not retrieved, paywalled).",
+      "[Fact] The category's benchmarks are strong: Return of the Obra Dinn 19,002 reviews, Strange Horticulture 10,141, The Case of the Golden Idol 6,652, Her Story 5,117 (Steam store pages, retrieved 2026-11-25).",
+      "[Inference] The genre is in an expansion phase, not a mature one: comparables are numerous but individually small, and no single title has yet taken the mass-market position Hades holds in roguelites."
+    ],
+    "comparable_games": [
+      {
+        "title": "Return of the Obra Dinn",
+        "appid": 653530,
+        "released": "2018-10-18",
+        "review_count": "19,002 reviews, Overwhelmingly Positive",
+        "all_time_peak_ccu": 1766,
+        "notes": "The genre's origin point and ceiling. Establishes that a pure deduction game can reach ~19k reviews, and sets the quality bar every new entry is measured against."
+      },
+      {
+        "title": "Strange Horticulture",
+        "appid": 1574580,
+        "released": "2022-01-21",
+        "review_count": "10,141 English-language reviews, Overwhelmingly Positive",
+        "notes": "Document-and-identification deduction in a fixed location. Proves the 'desk job with a database' format can reach five figures without 3D, voice or animation."
+      },
+      {
+        "title": "The Case of the Golden Idol",
+        "appid": 1677770,
+        "released": "2022-10-13",
+        "review_count": "6,652 English-language reviews, Overwhelmingly Positive",
+        "all_time_peak_ccu": 587,
+        "notes": "Closest structural match: no dialogue choices, fill-in-the-blank deduction from testimony and documents, chapter-based. Its 587 concurrent peak alongside 6.6k reviews shows a high review-to-CCU ratio typical of short single-player deduction games."
+      },
+      {
+        "title": "The Roottrees are Dead",
+        "appid": 2754380,
+        "released": "2025-01-15",
+        "review_count": "5,278 reviews, Overwhelmingly Positive",
+        "all_time_peak_ccu": 4669,
+        "notes": "2025's breakout deduction game, built on cross-referencing documents and testimony. The single most important recent proof that this format still has room, and it was made by a very small team."
+      },
+      {
+        "title": "Duck Detective: The Secret Salami",
+        "appid": 2637990,
+        "released": "2024-05-23",
+        "review_count": "4,867 reviews, Very Positive",
+        "notes": "Short, comic deduction game. Evidence that a 2-4 hour deduction game can sell at a low price and that tone (comedy) differentiates within the genre."
+      },
+      {
+        "title": "The Rise of the Golden Idol",
+        "appid": 2716400,
+        "released": "2024-11-12",
+        "review_count": "2,574 English-language reviews, Very Positive",
+        "notes": "Sequel to a beloved deduction game, and it drew roughly 40% of the original's review volume. A useful warning that the genre's audience is loyal but finite, and sequels do not automatically expand it."
+      },
+      {
+        "title": "Lorelei and the Laser Eyes",
+        "appid": 2008920,
+        "released": "2024-05-16",
+        "review_count": "2,270 reviews, Very Positive",
+        "notes": "Puzzle-deduction hybrid with a strong art identity. Shows the ceiling when the deduction is wrapped in a more authored, stylish presentation."
+      },
+      {
+        "title": "Her Story",
+        "appid": 368370,
+        "released": "2015-06-24",
+        "review_count": "5,117 reviews, Very Positive",
+        "notes": "Testimony-only deduction with no correct answer enforced. Historical proof that 'read and cross-reference, no dialogue options' is a viable premium product."
+      },
+      {
+        "title": "Papers, Please",
+        "appid": 239030,
+        "released": "2013-08-08",
+        "review_count": "39,907 reviews, Overwhelmingly Positive",
+        "notes": "Document-checking under institutional pressure. The closest thematic precedent for a bureaucratic-framed game, and proof that paperwork can be a mass-market mechanic when the moral stakes are sharp."
+      },
+      {
+        "title": "The Séance of Blake Manor",
+        "appid": 1395520,
+        "released": "2025-10-27",
+        "review_count": "3,386 English-language reviews, Very Positive",
+        "notes": "October 2025 release; confirms the deduction/narrative wave continued through the most recent quarter."
+      }
+    ],
+    "audience_demand": "[Fact] Demand is well evidenced and recent: The Roottrees are Dead reached 5,278 reviews in its first year, Duck Detective 4,867, The Séance of Blake Manor 3,386 within a month of launch, and the genre's ceiling is Obra Dinn at 19,002. [Fact] Review counts substantially exceed concurrent-player peaks across the genre (Golden Idol: 6,652 reviews, 587 peak), which is consistent with short, sequentially completed games bought by an omnivorous audience. [Inference] The audience is loyal and buys each new entry, so a well-reviewed release should clear 2k-5k reviews; the ceiling depends on puzzle quality and press attention rather than on marketing spend.",
+    "market_saturation": "[Fact] 4,954 detective-tagged and 6,190 investigation-tagged games exist, which is large in absolute terms, but the true 'document cross-referencing deduction' subset is small: roughly ten commercially notable titles over eight years. [Fact] The genre is expanding, with at least five notable releases in 2024-2025 alone. [Inference] Saturation is currently moderate and rising; the concept is early-to-mid wave, which is a good position, but a 12-month development window means launching into a noticeably fuller market, and 'another Golden Idol-like' fatigue is a real near-term risk.",
+    "opportunities": [
+      "Lowest production cost of the five concepts: a document database, a linking interface, twelve static scenes and no VO, 3D or networking - which is the safest possible use of a $300k CAD budget.",
+      "Best revenue-per-review band of the five: Detective's estimated ~$1,600 median and Investigation's ~$1,100 are roughly triple Puzzle's ~$590.",
+      "Press and creator fit is unusually good because deduction games can be discussed without spoilers ('the mechanic is the story'), which drives coverage that small teams cannot buy.",
+      "The genre rewards tight, short, well-edited games: Duck Detective and Golden Idol both sold at low price points with modest scope, so scope discipline is a feature rather than a compromise.",
+      "Document-based design localises cheaply and reads well on Steam Deck, widening reach without redesign.",
+      "A corporate/office setting is underexploited in a genre dominated by period and occult settings, which is a legitimate differentiation angle for press."
+    ],
+    "risks": [
+      "[Fact] The direct comparator set is brutal: every review will benchmark this against Obra Dinn (19,002 reviews) and Golden Idol (6,652), and the sequel Rise of the Golden Idol drew only ~39% of the original's review volume, showing the audience does not grow automatically.",
+      "[Inference] 'No dialogue choices' removes the single most marketable tag in narrative games ('Choices Matter', 19,226 games); the store page will have to sell reading and cross-referencing, which is hard to show in screenshots.",
+      "[Inference] Short length plus no replay value creates refund exposure and 'not worth $19.99' reviews; the genre's price anchors (Her Story CDN$12.99, Golden Idol CDN$19.99-tier) cap what can be charged.",
+      "[Inference] Contradiction logic is a QA-heavy system: a single false-positive link can break trust in the whole deduction, and this failure mode is invisible until players hit it.",
+      "[Fact] The genre is filling up: five notable releases in 2024-2025 and an FT feature signalling wider attention, so a 2027 launch will face materially more competition than the 2024 cohort did.",
+      "[Inference] The corporate-dissolution setting lacks the visceral hook of murder or the occult; it may read as 'office drama' to buyers scanning a store page, weakening click-through even if reviews are strong."
+    ],
+    "sources": [
+      {
+        "title": "What the hell happened in 2025? (Chris Zukowski, VG Insights data)",
+        "url": "https://howtomarketagame.com/2026/01/27/what-the-hell-happened-in-2025/",
+        "accessed": "2026-11-25"
+      },
+      {
+        "title": "Steam Tags Stats (tag-level game counts and revenue estimates)",
+        "url": "https://games-stats.com/steam/tags/",
+        "accessed": "2026-11-25"
+      },
+      {
+        "title": "Return of the Obra Dinn - Steam store page",
+        "url": "https://store.steampowered.com/app/653530/Return_of_the_Obra_Dinn/",
+        "accessed": "2026-11-25"
+      },
+      {
+        "title": "Return of the Obra Dinn / The Case of the Golden Idol / The Roottrees are Dead - SteamCharts concurrent player history",
+        "url": "https://steamcharts.com/app/653530",
+        "accessed": "2026-11-25",
+        "note": "Golden Idol at https://steamcharts.com/app/1677770, Roottrees at https://steamcharts.com/app/2754380"
+      },
+      {
+        "title": "The Case of the Golden Idol / The Rise of the Golden Idol / The Roottrees are Dead / Duck Detective / Lorelei and the Laser Eyes / Strange Horticulture / Her Story / Papers, Please / The Seance of Blake Manor - Steam store pages",
+        "url": "https://store.steampowered.com/app/1677770/",
+        "accessed": "2026-11-25",
+        "note": "Individual store pages retrieved for appids 1677770, 2716400, 2754380, 2637990, 2008920, 1574580, 368370, 239030 and 1395520."
+      },
+      {
+        "title": "The Roottrees are Dead - and the birth of a new gaming genre (Financial Times)",
+        "url": "https://www.ft.com/content/38371ae8-5a4a-4a03-a86f-fc2910b851a4",
+        "accessed": "2026-11-25",
+        "note": "Only the headline and summary were seen in search results; the article itself is paywalled and was not retrieved. Cited as evidence of mainstream press attention, not for any statistic."
+      },
+      {
+        "title": "Steam Niches in 2026: Which Genres Are Filling Up Fastest",
+        "url": "https://www.steampageanalyzer.com/blog/steam-niches-2026-filling-fastest",
+        "accessed": "2026-11-25"
+      }
+    ],
+    "research_confidence": "high",
+    "research_confidence_rationale": "Multiple recent comparables (2024-2025) were verified directly on Steam with review counts and release dates, the genre-level revenue medians are the highest of the five concepts, and independent commentary (Zukowski, the FT) corroborates the trend direction. The main unquantified element is how much of the audience is already saturated, which is why market_saturation is stated as a range rather than a point estimate.",
+    "data_gaps": [
+      "The Financial Times article was paywalled; only its headline and summary were seen, so no figures from it are used.",
+      "No verified sales figures for any deduction comparator; review counts and CCU peaks were used as proxies.",
+      "No public data on the number of true 'document cross-referencing' deduction games, only on the broader detective/investigation tags."
+    ]
+  }
+]

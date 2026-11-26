@@ -1,0 +1,165 @@
+{
+  "framework": {
+    "criteria": {
+      "market_demand": 0.30,
+      "differentiation": 0.20,
+      "production_feasibility": 0.20,
+      "monetization_potential": 0.15,
+      "competitive_opportunity": 0.15
+    },
+    "scale": "0-10 per criterion, weighted_score out of 100"
+  },
+  "evaluations": [
+    {
+      "concept_id": "concept-5",
+      "scores": {
+        "market_demand": 7.5,
+        "differentiation": 6.0,
+        "production_feasibility": 9.0,
+        "monetization_potential": 5.5,
+        "competitive_opportunity": 6.5
+      },
+      "weighted_score": 70.5,
+      "justification": "Market demand (7.5): evidence is direct and recent rather than extrapolated. market-analysis.json reports narrative as the #1 genre for 2025 Steam hits (51 games over 1,000 reviews, Zukowski/VG Insights, Jan 2026) with detective games explicitly inside that bucket, and every comparable in the 2024-2025 deduction cluster found an audience: The Roottrees are Dead 5,278 reviews, Duck Detective 4,867, The Seance of Blake Manor 3,386, The Rise of the Golden Idol 2,574, Lorelei and the Laser Eyes 2,270 (Steam store pages, retrieved 2026-11-25). Judgment: the realistic outcome is the 2k-5k review band, not the 19k Obra Dinn ceiling, so the score sits above mid-scale but well below the genre ceiling. Differentiation (6.0): the 'no dialogue options, only evidence links' verb is genuinely distinct, and the corporate-dissolution setting is flagged as underexploited against a genre dominated by period and occult settings. But the research names The Case of the Golden Idol (6,652 reviews) as the 'closest structural match' for no-choice, document-and-testimony deduction, so the mechanical novelty is narrower than the concept description implies; judgment is that this is a strong execution of a known form rather than a new one. Production feasibility (9.0): the highest score in the set and the clearest fit to the brief's constraints. market-analysis.json describes it as the lowest production cost of the five - a document database, a linking interface, twelve static scenes, no VO, no 3D, no networking - which is 'the safest possible use of a $300k CAD budget' for 5 developers over 12 months in Unity. The only production caveat is that contradiction logic is QA-heavy (a single false-positive link breaks trust in the deduction), which is a testing cost, not a scope or technology risk. Monetization potential (5.5): held down by structural limits rather than by weak genre economics. Detective-tagged games carry an estimated ~$1,600 median and Investigation ~$1,100, roughly triple Puzzle's ~$590, which is the best revenue-per-review band of the five. But the research notes short length plus no replay value creates refund exposure and 'not worth $19.99' reviews, and the genre's price anchors (Her Story CDN$12.99, Golden Idol CDN$19.99-tier) cap the ceiling; the monetization model is a one-time purchase plus an optional soundtrack/case-file bundle with no expansion path. Competitive opportunity (6.5): the true 'document cross-referencing deduction' subset is small - roughly ten commercially notable titles over eight years - and the genre is in an expansion phase rather than a mature one, which is a favourable entry window. The score is capped because saturation is described as moderate and rising, at least five notable releases landed in 2024-2025 alone, and a 12-month development window means launching into a materially fuller market with 'another Golden Idol-like' fatigue as a near-term risk.",
+      "commercial_risks": [
+        "Benchmark risk is severe and specific: every review will compare the game to Return of the Obra Dinn (19,002 reviews) and The Case of the Golden Idol (6,652), and The Rise of the Golden Idol drew only ~39% of the original's review volume, showing the audience does not grow automatically with each release.",
+        "Removing dialogue choices forfeits the most marketable narrative tag ('Choices Matter', 19,226 games); the store page must sell reading and cross-referencing, which is hard to convey in screenshots.",
+        "Short length and no replay value create refund exposure and value-per-dollar complaints, and genre price anchors (Her Story CDN$12.99, Golden Idol CDN$19.99-tier) limit what can be charged.",
+        "The corporate-dissolution setting lacks the visceral hook of murder or the occult and may read as 'office drama' to buyers scanning a store page, weakening click-through even if reviews are strong.",
+        "The genre is filling up: five notable releases in 2024-2025 plus mainstream press attention (FT feature), so a 2027 launch faces materially more competition than the 2024 cohort did.",
+        "Demand evidence is review-count based only; no verified sales or revenue figures exist for any deduction comparator, so revenue projections carry unquantified uncertainty."
+      ],
+      "production_risks": [
+        "Contradiction logic is a QA-heavy system: a single false-positive link can break player trust in the whole deduction, and this failure mode is invisible until players encounter it.",
+        "The writing and editing load is the real cost driver - a tightly consistent document set across twelve interview scenes must be produced by a five-person team inside 12 months.",
+        "No VO, 3D or animation is a cost advantage but also removes production-value signals that some narrative buyers use to judge quality.",
+        "Low technical risk overall; the residual exposure is content quality and editing discipline rather than engineering."
+      ],
+      "confidence": "high",
+      "recommendation": "invest",
+      "recommendation_rationale": "Highest weighted score in the set and the best match to the brief's hard constraints: lowest production complexity of the five (document database, linking UI, twelve static scenes, no VO/3D/networking) against a $300k CAD / 5-dev / 12-month Unity budget, with verified recent demand (five comparables between 2,270 and 5,278 reviews, genre ceiling 19,002) and the strongest tag-level revenue medians of the five concepts. Accept the capped price point and short-length economics as the cost of a low-risk build.",
+      "rank": 1
+    },
+    {
+      "concept_id": "concept-2",
+      "scores": {
+        "market_demand": 6.0,
+        "differentiation": 7.0,
+        "production_feasibility": 6.5,
+        "monetization_potential": 5.8,
+        "competitive_opportunity": 6.5
+      },
+      "weighted_score": 63.5,
+      "justification": "Market demand (6.0): the audience is proven but the specific fantasy is not. market-analysis.json establishes text-first political simulation as commercially real - Suzerain 7,321 reviews and a 3,333 all-time concurrent peak at CDN$29.99, Citizen Sleeper 6,567, Cultist Simulator 5,359 - and narrative was the top hit-producing genre of 2025 (51 games over 1,000 reviews). Against that, the research explicitly calls demand for the 'influence a conflict only through media' fantasy unproven: Not For Broadcast, the best-known broadcast game, peaked at 848 concurrent players, and the Turn-Based Strategy tag fell 19 positions in hit share between 2021 and 2025 (GameDiscoverCo, 25 Aug 2026). Judgment: the concept inherits Suzerain's audience but not Suzerain's proof, so the score sits slightly above the midpoint. Differentiation (7.0): the design is genuinely distinct within its own genre - no unit control, no tactical grid, with delayed cascading misinterpretation across a faction social graph - and the research confirms 'no comparable implements delayed misinterpretation across factions'. It is held below the top of the scale because the media-manipulation fantasy is familiar from Suzerain, Orwell and Not For Broadcast, so it reads as a new angle on a known premise rather than a new category. Production feasibility (6.5): structurally well suited to the constraints - 2D node map, portraits, UI, no 3D, no animation rigs, no real-time AI, no networking, and the lowest art cost of the five, which leaves budget for writing. The score is capped by the research's own warning that content volume is the real budget risk: making delayed consequences feel coherent needs a large reactive text corpus, and Suzerain's scope was built over years of post-launch expansion, which a 12-month schedule cannot replicate. Monetization potential (5.8): the model matches a demonstrated template - $19.99-$24.99 premium plus a supporter pack and paid expansions, exactly Suzerain's approach and its demonstrated long tail. Tag medians are middling (Political Sim ~$1,500, Turn-Based Strategy ~$1,100, Text-Based ~$760), and text-heavy design localises cheaply with no VO, which supports margin. Competitive opportunity (6.5): direct competition is minimal - the realistic set is Suzerain, Not For Broadcast, Orwell and Killer Frequency, and the Political Sim tag covers only 1,216 games against 43,717 strategy-tagged titles, so the concept is not fighting a crowd. The cap reflects two structural discovery problems the research identifies: text-heavy store pages convert poorly because screenshots of prose are weak Steam assets, and the Turn-Based Strategy label is in decline, so the tag will not carry discovery.",
+      "commercial_risks": [
+        "The broadcast-fantasy comparator, Not For Broadcast, peaked at 848 concurrent players - small relative to the writing investment the concept requires.",
+        "Text-heavy store pages convert poorly: screenshots of prose and menus are the weakest possible Steam page assets, and this concept has no obvious visual hook beyond a hand-drawn map.",
+        "Comparison to Suzerain is unavoidable and unfavourable for a five-person team, risking 'not as deep as Suzerain' as the dominant review framing.",
+        "Turn-based strategy is losing share of hits (down 19 tag positions 2021-2025), so the genre label will not assist discovery.",
+        "A no-combat, no-unit-control strategy game is hard to communicate in a 30-second trailer and may be mis-tagged by players, hurting Steam recommendation placement.",
+        "Not For Broadcast's review count could not be retrieved and Orwell's store page exposed no review summary, so the size of the specific broadcast audience remains unquantified - demand confidence is limited by this gap."
+      ],
+      "production_risks": [
+        "Content volume is the binding constraint: coherent delayed consequences require a large reactive text corpus, and under-delivering reads as 'shallow' in reviews.",
+        "Suzerain's comparable depth was reached over years of post-launch expansion, which is not available inside a 12-month schedule.",
+        "Writing and tuning the faction-opinion simulation so that misinterpretation feels fair rather than arbitrary is a design-tuning risk that only surfaces in playtesting.",
+        "Low technical risk (no 3D, no rigs, no networking), so the schedule risk is editorial throughput rather than engineering."
+      ],
+      "confidence": "medium",
+      "recommendation": "consider",
+      "recommendation_rationale": "Second-highest score, with a cheap-to-build 2D structure that fits the budget and a demonstrated premium-plus-expansion revenue template in Suzerain. Held at 'consider' rather than 'invest' because the defining fantasy has no direct comparable (Not For Broadcast peaked at 848 CCU), the store page has no visual hook, and the reactive text volume needed to make consequences land is the single largest scope risk in the set.",
+      "rank": 2
+    },
+    {
+      "concept_id": "concept-3",
+      "scores": {
+        "market_demand": 5.5,
+        "differentiation": 7.2,
+        "production_feasibility": 6.8,
+        "monetization_potential": 6.2,
+        "competitive_opportunity": 5.0
+      },
+      "weighted_score": 61.3,
+      "justification": "Market demand (5.5): the audience is large and proven but the fantasy is not, and the research is explicit about that split. Stardew Valley (398,140 reviews), Slime Rancher (66,135), Dorfromantik (15,858) and ISLANDERS (10,228) show real appetite for systemic cozy games, and Simulation was the #2 genre by 2025 hit count (43 games over 1,000 reviews, 4.1% hit rate, up from 3.76%). But the nearest indirect-control comparables are modest - The Wandering Village 4,098 reviews, Terra Nil 5,052 - and a 2025 mycelium-themed game (Mycelium Heaven) reached only 24 reviews, which the research reads as evidence the theme carries no demand. Farming Sim's hit rate also fell from 20.83% in 2024 to 8.3% in 2025. Judgment: high audience, unproven fantasy, so mid-scale. Differentiation (7.2): the strongest design-novelty score after concept-1. 'The player is the ecosystem, not the farmer' inverts a familiar fantasy, the below-ground cross-section is called a genuine thumbnail advantage in a category where store pages look like the same sunlit farm, and the research confirms no comparable asks the player to make conditions rather than decisions. It is not higher because the underlying genre grammar (manage resources, respond to weather and pests, reinvest) is conventional. Production feasibility (6.8): a comfortable fit - 2D layered cross-section, graph-based nutrient simulation, a small autonomous agent and a seasonal event system, with limited animation, no 3D, no combat and no multiplayer. The research names the design risk rather than a technical one: making indirect feedback readable without burying the player in numbers. Competitive opportunity (5.0): the weakest element and the reason the concept does not rank higher. Cozy is one of the five fastest-growing niches but supply is outrunning demand - releases up 143% year-on-year (1,041 in 2026 against 428 in 2025), 2,730 unreleased cozy pages with 333 dated inside 90 days, and Nature-tagged games (8,969) earn an estimated ~$380 median versus Management's ~$2,100. Saturation is near zero in the specific 'below-ground ecology' space, but the launch-window visibility problem is severe. Monetization potential (6.2): the best genre-level economics of any concept except concept-5 - Simulation carries the highest estimated tag median of the five concepts' genres (~$2,100) with a stable 4.1% hit rate - and management buyers tolerate Early Access and long tails, with a paid expansion season (new climate and crop family) that fits genre DLC norms. It is capped because cozy buyers are price-sensitive and discount-driven, so a $24.99 launch into a field of $9.99-$14.99 entries is a conversion risk.",
+      "commercial_risks": [
+        "Launch-window visibility is the hardest of the five: cozy releases are up 143% year-on-year with 333 titles dated to launch inside a 90-day window against a 'normal' 158.",
+        "Farming Sim's hit rate fell from 20.83% (2024) to 8.3% (2025), a direct warning that the adjacent audience is no longer absorbing new entrants at the old rate.",
+        "Eco framing is associated with weaker commercial outcomes: Nature-tagged games carry an estimated ~$380 median revenue, and the 2025 mycelium-themed comparator reached 24 reviews.",
+        "'Indirect control' may read to cozy buyers as 'the game plays itself', and the Stardew-style agency audience may bounce off a design where the farmer ignores them.",
+        "Cozy buyers are price-sensitive and discount-driven; a $24.99 launch in a category flooded with $9.99-14.99 entries is a conversion risk.",
+        "No verified revenue figures exist for any cozy or ecology comparator, and the number of 'indirect control' management games could not be counted, so mechanic-level saturation is unmeasured."
+      ],
+      "production_risks": [
+        "A nutrient/water/mineral simulation risks a legibility failure: if players cannot see why the orchard failed, they will attribute it to randomness and review accordingly.",
+        "The autonomous farmer agent must feel intentional rather than arbitrary; tuning it so the player's influence is legible without direct control is the central design risk.",
+        "Seasonal event and pest systems need enough variety to sustain a long-tail management audience within 12 months of content production.",
+        "Low technical risk (2D, limited animation, no networking), so schedule exposure is design-tuning and content breadth rather than engineering."
+      ],
+      "confidence": "medium",
+      "recommendation": "consider",
+      "recommendation_rationale": "A genuinely differentiated design (player-as-ecosystem, cross-section presentation) inside the genre with the highest estimated tag median of the five, built on 2D layered art a five-person team can author in 12 months. Held at 'consider' because the specific fantasy has no direct comparator and the nearest indirect-control games sit at 4-5k reviews, while cozy supply growth (+143%, 333 launches in 90 days) makes the launch window the single hardest discoverability problem in this evaluation.",
+      "rank": 3
+    },
+    {
+      "concept_id": "concept-1",
+      "scores": {
+        "market_demand": 5.0,
+        "differentiation": 7.8,
+        "production_feasibility": 6.5,
+        "monetization_potential": 5.0,
+        "competitive_opportunity": 6.5
+      },
+      "weighted_score": 60.9,
+      "justification": "Market demand (5.0): the adjacent audience is durable but the category-level numbers are hostile and there is no direct signal to measure. market-analysis.json shows a proven first-person systemic puzzle audience - The Talos Principle 2 at 8,701 reviews and a 7,258 concurrent peak, Superliminal 14,656, Chants of Sennaar 13,545, Antichamber 10,265, The Witness 9,167 - and the newest franchise entry (Reawakened, Apr 2025) still cleared 1,208 reviews. Against that, the Puzzle tag holds 36,696 games with an estimated ~$590 median, only 14 of 4,022 puzzle releases in 2025 reached 1,000 reviews (0.34% versus 2.99% across all releases), a Steam search for 'acoustic', 'sound puzzle', 'tuning' and 'frequency' returned no title where acoustics is the primary mechanic, and the nearest audio-first comparable (Soundfall) reached only 997 reviews. Judgment: the realistic ceiling is the Manifold Garden-to-Superliminal band of roughly 4.5k-15k reviews, but with no direct demand signal the score stays at the midpoint. Differentiation (7.8): the highest in the set. No commercially significant game was found where acoustics is the sole interactive material, so this creates a category rather than entering one, and the verb is described as highly clip-able ('retune the room until the tone arrives' is a six-second explanation). It is not scored higher because the research flags the concept as poorly clone-proof on Zukowski's November 2026 test - built on a gimmick, art not differentiating, systematic content - failing three of four tests. Production feasibility (6.5): 30 handcrafted chambers plus modular kits fits a five-person, 12-month, $300k CAD budget with no NPC, animation or networking cost, and the research explicitly states this. The cap is a real engineering risk: Unity wave-propagation simulation that stays legible and performant on mid-range hardware rests on a single systems programmer, and if the simulation is not readable reviews will punish it immediately. Monetization potential (5.0): the weakest of the five alongside the category economics. Price positioning at $19.99-$24.99 needs no education because Antichamber (CDN$21.99), Manifold Garden (CDN$25.99) and Superliminal (CDN$25.99) all sit there, and a soundtrack/art-book bundle is a natural fit for an audio-led game. But Puzzle's estimated ~$590 median is the lowest tag median of any concept's genre, comparables discount aggressively so a full-price $25+ launch is unlikely to hold, and the monetization model has no expansion path. Competitive opportunity (6.5): low at the design level - the realistic competitive set is roughly 6-10 well-known first-person puzzlers rather than 36,696 games, and the sub-genre receives far fewer releases than 2D or cozy puzzle - so saturation is a discoverability problem, not head-to-head competition. The cap reflects two specific constraints: no marketing template exists because the trailer must teach an unfamiliar verb with no reference point ('it's like X but with sound' has no X), and the accessibility question (a listening-only verb excludes Deaf and hard-of-hearing players and laptop-speaker users) could not be sized from public data.",
+      "commercial_risks": [
+        "Accessibility is the central commercial risk: a game whose only verb is listening excludes Deaf and hard-of-hearing players and anyone on laptop speakers, and a full visual fallback risks removing the differentiator. No accessibility data was found to size this.",
+        "Puzzle is a low-hit-rate genre: 0.34% of 2025 puzzle releases reached 1,000 reviews versus 2.99% across all releases (Zukowski, Jan 2026).",
+        "The design scores badly on three of four of Zukowski's clone-proofing tests (built on a gimmick, art not differentiating, systematic content), so imitation risk is elevated.",
+        "The nearest audio-first comparable, Soundfall, reached only 997 reviews, suggesting 'audio' as a selling point is not itself a demand driver.",
+        "No marketing template exists: the trailer must teach an unfamiliar verb without a reference point, and there is no direct comparable to anchor a store page.",
+        "Puzzle comparables discount aggressively and cluster at CDN$21.99-25.99, so a full-price $25+ launch is unlikely to hold; no verified revenue figure exists for any comparable."
+      ],
+      "production_risks": [
+        "A Unity wave-propagation simulation that stays legible and performant on mid-range hardware is a genuine engineering risk for a single systems programmer, and the concept budgets exactly one for the full 12 months.",
+        "If the acoustic model is not readable, players cannot distinguish a wrong solution from a bug, which is the classic failure mode for simulation-driven puzzle games.",
+        "Procedural audio plus 30 handcrafted chambers is a large authoring load for a five-person team; content cannot be padded procedurally without breaking puzzle integrity.",
+        "No NPC, animation or networking cost keeps scope manageable, so the schedule exposure is concentrated in one specialised system - a single point of failure."
+      ],
+      "confidence": "medium",
+      "recommendation": "consider",
+      "recommendation_rationale": "The strongest differentiation in the set - a verb with no direct competitor - combined with a proven first-person puzzle audience and a scope (30 chambers, modular kits, no NPC/animation/networking) that fits $300k CAD and 12 months. Held at 'consider' because there is no direct demand signal for acoustics-only play, the Puzzle tag's 0.34% hit rate is the worst category statistic in this evaluation, the accessibility constraint is unsolved and unsized, and one systems programmer carries the entire technical risk.",
+      "rank": 4
+    },
+    {
+      "concept_id": "concept-4",
+      "scores": {
+        "market_demand": 8.5,
+        "differentiation": 5.0,
+        "production_feasibility": 4.5,
+        "monetization_potential": 5.8,
+        "competitive_opportunity": 3.0
+      },
+      "weighted_score": 57.7,
+      "justification": "Market demand (8.5): the highest score in the set and the best-documented finding in the research. Roguelite was the #1 genre tag among 2025's hit PC games, up 39 positions from 2021, with Roguelike at #2 (GameDiscoverCo, 25 Aug 2026), and the comparables are unambiguous - Hades 143,486 reviews and a 54,015 concurrent peak, Dead Cells 44,940, Nine Sols 20,948, Skul: The Hero Slayer 9,715 reviews with an 18,876 peak. Skul is a direct mechanical precedent for enemy-derived form swapping, so the audience already understands the verb. Judgment: demand is not the problem, and the realistic ceiling for a five-person, 12-month entry is the 5k-15k review band (Rogue Legacy 2 to Skul), not the Hades band. Differentiation (5.0): the weakest score after competitive opportunity, and the reason the high demand score does not translate into a high ranking. Skul: The Hero Slayer already occupies this exact mechanical space with 9,715 reviews, and the research states plainly that the concept will be positioned as derivative unless the form-decay and traversal angle is visibly different. The hook is highly demonstrable in short video and the form-decay tension is a legitimate twist, but 'wear the enemy you just killed' is a known idea, not a new one. Production feasibility (4.5): the lowest in the set and the decisive constraint against the brief. The concept is rated medium-to-high complexity, and the research identifies combat feel as the make-or-break variable requiring a specialist combat designer plus animator inside a five-person team. Animation volume is the hidden cost: 8-10 forms x 6 enemy archetypes x traversal quirks is a large state matrix for 12 months, and cutting forms late would remove the USP. In a five-person studio, dedicating a combat designer and an animator consumes 40% of headcount on top of the systems and content work. Monetization potential (5.8): roguelite structure delivers high replay value per dollar, which defends a $19.99-$24.99 price in a market where GameDiscoverCo measured the median hit price falling from $19.99 (2021) to $16.99 (2025), and a cosmetic palette pack is a natural post-launch add. The cap is the tag-level economics: Action Roguelike carries an estimated ~$510 median revenue, among the lowest of the five concepts' genres. Competitive opportunity (3.0): the lowest score in the entire evaluation and grounded in consistent data across three trackers. Action Roguelike holds 11,540 tagged games with only 3.5% of the Jan 2024-Jun 2025 cohort reaching 1,000 reviews - below Steam's 4.2% average - releases grew 57% year-on-year (957 to 1,505) with 4,856 unreleased pages already live, Steam Page Analyzer explicitly flags action roguelike as a combination 'to fear', and the 2D Platformer half of the pitch had a 0.18% 2025 hit rate (3 of 1,658 releases) with the 2.5D tag at an estimated ~$400 median. Saturation is severe at the genre level and the platformer framing is an active discoverability liability.",
+      "commercial_risks": [
+        "Action roguelike is the most saturated sub-genre in this evaluation: 11,540 tagged games, a 3.5% hit rate below Steam's 4.2% average, +57% release growth in 2026 and 4,856 unreleased pages already live.",
+        "Skul: The Hero Slayer already occupies this exact mechanical space with 9,715 reviews, so the concept will be read as derivative unless the form-decay and traversal angle is visibly different.",
+        "The 2D Platformer tag had a 0.18% rate of reaching 1,000 reviews in 2025 (3 of 1,658 releases), making the platformer half of the pitch a discoverability liability.",
+        "Roguelite buyers are the most demanding and most comparative audience on Steam; 'good but not great' combat reads as Mixed, and Mixed action roguelites rarely recover.",
+        "Median price for hit PC games fell from $19.99 (2021) to $16.99 (2025), so premium pricing must be justified by perceived replay value against Hades and Dead Cells.",
+        "Action Roguelike's estimated ~$510 tag median is among the lowest of the five concepts' genres, so strong review volume may not convert into strong revenue."
+      ],
+      "production_risks": [
+        "Combat feel is the make-or-break variable and requires a specialist combat designer plus an animator inside a five-person team - roughly 40% of headcount committed before systems or content work begins.",
+        "Animation volume is the hidden cost: 8-10 forms x 6 enemy archetypes x traversal quirks is a large state matrix for 12 months, and cutting forms late would remove the USP.",
+        "Without the specialist roles the game will be compared unfavourably to Hades and Dead Cells within minutes of any demo, and that comparison is unrecoverable.",
+        "Handcrafted room modules across four biomes with one boss each is a substantial content load on top of the combat and animation work.",
+        "This is the only concept in the set where the required craft specialisation appears to exceed what a five-person, $300k CAD, 12-month budget can reliably hire and retain."
+      ],
+      "confidence": "high",
+      "recommendation": "pass",
+      "recommendation_rationale": "Demand is the highest in the set and the research confidence is high, but the two heaviest weighted constraints point the other way: competitive opportunity is the lowest score in this evaluation (11,540 tagged games, 3.5% hit rate below Steam average, +57% supply growth, 0.18% platformer hit rate) and production feasibility is also the lowest (combat feel and an 8-10 form x 6 archetype animation matrix requiring a specialist designer and animator inside a five-person team for 12 months). Skul already owns the mechanic, so the differentiation upside does not offset the execution risk. Revisit only with a larger team or a longer schedule.",
+      "rank": 5
+    }
+  ]
+}

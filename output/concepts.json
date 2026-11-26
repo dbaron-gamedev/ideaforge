@@ -1,0 +1,62 @@
+[
+  {
+    "id": "concept-1",
+    "title": "Resonance Ledger",
+    "description": "A first-person acoustic puzzle game set inside a colossal, half-broken listening machine. The player is the last tuner of the Ledger, a structure built to record a vanished civilization's final transmission. Each chamber is a sealed acoustic environment whose walls, floors, air columns and standing waves can be retuned. There is no inventory and no combat: the only verb is listening, and the only material is sound. By altering surface hardness, cavity depth and air density, the player routes a tone from a source to a receiver, gradually reassembling the recording chamber by chamber.",
+    "genre": "First-person acoustic puzzle / atmospheric exploration",
+    "platform": "PC (Steam), Windows and Linux",
+    "core_gameplay_loop": "Enter a chamber and study its resonance map -> identify where the tone dies or distorts -> retune wall materials, cavities and air columns -> listen to the wave propagate in real time -> lock the chamber when the receiver resonates -> receive the next chamber's blueprint and a fragment of the lost recording.",
+    "unique_selling_proposition": "Sound is the only interactive material. Instead of pushing boxes or flipping switches, players solve puzzles by reasoning about wave behaviour, and the game teaches acoustics through their ears rather than through text.",
+    "target_audience": "Puzzle players who enjoy systemic, non-combat experiences; audio and music enthusiasts; fans of atmospheric first-person puzzlers who want a calm but intellectually demanding challenge.",
+    "production_complexity": "Medium. One core acoustic simulation (grid-based propagation with simplified reflection and absorption), roughly 30 handcrafted chambers, a small set of reusable modular architecture kits, and procedural audio. No NPCs, no animation-heavy content, no multiplayer. Main risk is making the simulation legible and performant in Unity; budget one dedicated systems programmer for the full 12 months.",
+    "monetization_model": "Premium: single one-time purchase at launch, with an optional low-priced soundtrack and art-book bundle. No microtransactions, no live-service content."
+  },
+  {
+    "id": "concept-2",
+    "title": "Signal Fires",
+    "description": "A turn-based strategy game about running an underground radio station in an occupied coastal region. The player never commands soldiers. Instead, each week they compose a short broadcast from a limited pool of phrases, testimonies and coded songs, then watch how different districts, factions and individuals reinterpret it. Trust, fear and misinformation spread across a hand-drawn map. A broadcast meant to unite two neighbourhoods can be read as a threat by a third, and consequences arrive days later, often in forms the player did not intend.",
+    "genre": "Turn-based strategy / narrative simulation",
+    "platform": "PC (Steam), Windows, macOS and Linux",
+    "core_gameplay_loop": "Read intercepted reports and listener letters -> choose a broadcast angle and assemble it from unlocked phrases -> commit the broadcast and advance one week -> observe how each faction's mood and behaviour shifts -> respond to the fallout, repair credibility, and unlock new phrases from new contacts.",
+    "unique_selling_proposition": "The player influences a conflict entirely through media. There is no unit control and no tactical grid: the strategy layer is interpretation, timing and reputation, and every message has delayed, cascading consequences across a social graph.",
+    "target_audience": "Strategy players who prefer politics and emergent storytelling over map painting; readers of text-heavy narrative games; players who enjoy systems that react to their intent in surprising ways.",
+    "production_complexity": "Low to medium. A 2D node-based map, a faction opinion simulation, a phrase-composition interface and a large but inexpensive text corpus. Art is limited to portraits, map states and UI. No 3D, no animation rigs, no real-time AI, no networking. The main cost is writing and tuning enough reactive content to make consequences feel coherent.",
+    "monetization_model": "Premium: one-time purchase at launch, with a free content update adding a second region and an optional supporter pack containing the soundtrack and design notes."
+  },
+  {
+    "id": "concept-3",
+    "title": "Hollow Orchard",
+    "description": "An ecology management game played from beneath the soil. The player tends the root and fungal network of a failing orchard, drawn as a living cross-section under the ground while the farmer works above. By linking roots, seeding mycelium and rationing water and minerals, the player shapes what the orchard can produce. The farmer acts autonomously, reacting only to what the soil gives them, so the player's real craft is indirect: making the right conditions for someone else to succeed.",
+    "genre": "Ecology management / systemic simulation",
+    "platform": "PC (Steam), Windows, macOS and Linux",
+    "core_gameplay_loop": "Survey the soil cross-section and read moisture, mineral and fungal health -> draw and prune mycelium connections to move resources between trees -> respond to weather and pest events -> watch the above-ground orchard react through the farmer's choices -> harvest, bank the season's yield, and reinvest in deeper soil layers.",
+    "unique_selling_proposition": "The player is the ecosystem, not the farmer. Success is measured by what an autonomous character does with the conditions you create, turning a familiar farming fantasy into a game about indirect influence and patience.",
+    "target_audience": "Cozy management and simulation players; ecology-curious players; fans of farming games who want a slower, more systemic and less checklist-driven experience.",
+    "production_complexity": "Medium. A 2D layered cross-section, a graph-based nutrient simulation, a small autonomous farmer agent and a seasonal event system. Art is layered 2D with limited animation. No 3D, no combat, no multiplayer. The design risk is making the indirect feedback readable without overwhelming the player with numbers.",
+    "monetization_model": "Premium: one-time purchase at launch, with an optional cosmetic soil-theme pack and a paid expansion season adding a new climate and crop family."
+  },
+  {
+    "id": "concept-4",
+    "title": "Borrowed Blade",
+    "description": "A 2.5D action roguelite in which the protagonist owns no weapon and no permanent moveset. Every enemy defeated leaves behind a weapon-form that can be worn for a short time, and each form carries its own attacks, movement quirks and fragility. Wielding a spear-form lets the player vault gaps; wearing a hammer-form opens shortcuts but slows them badly. Forms decay, so survival depends on constantly stealing new identities from the floor's inhabitants rather than mastering one.",
+    "genre": "Action roguelite / 2.5D platformer",
+    "platform": "PC (Steam), Windows",
+    "core_gameplay_loop": "Enter a floor with an empty loadout -> engage an enemy archetype -> claim its weapon-form on defeat -> use the form's movement and combat quirks to traverse and fight -> manage form decay while chaining into the next enemy -> reach the floor boss, then extract permanent knowledge and one persistent passive.",
+    "unique_selling_proposition": "The moveset is borrowed and temporary. Players fight by cycling through enemy identities instead of upgrading a single build, so combat and traversal are the same act of scavenging.",
+    "target_audience": "Action roguelite players who enjoy tight combat and build improvisation; fans of fast 2.5D action who want a new mechanical hook rather than another stat ladder.",
+    "production_complexity": "Medium to high. The dominant costs are combat feel, animation volume and enemy archetype variety. Scope to four biomes, six enemy archetypes and one boss per biome, with shared rigs and a limited form set (eight to ten). No networking, no procedural 3D environments; floors are handcrafted room modules. Requires a strong combat designer and animator within the five-person team.",
+    "monetization_model": "Premium: one-time purchase at launch, with a free post-launch update adding new forms and an optional cosmetic palette pack."
+  },
+  {
+    "id": "concept-5",
+    "title": "The Last Interview",
+    "description": "A narrative deduction game framed as a corporate exit process. The player is an auditor conducting final interviews with employees of a company that is quietly dissolving. There are no dialogue choices and no branching morality: instead, the player reads personnel files, memos and chat logs, then cross-references what each subject says against the documents. Contradictions are marked directly on the testimony, and the report the player files determines which version of events survives.",
+    "genre": "Narrative deduction / investigative mystery",
+    "platform": "PC (Steam), Windows, macOS and Linux",
+    "core_gameplay_loop": "Read the subject's file and the documents attached to it -> conduct the interview and collect statements -> link statements to documents and flag contradictions -> decide what to believe and what to omit -> file a report that changes the next subject's available documents and the ending.",
+    "unique_selling_proposition": "There are no dialogue options, only evidence links. The truth is assembled from paperwork and testimony rather than chosen from a menu, making the player's reading and cross-referencing the actual mechanic.",
+    "target_audience": "Narrative mystery and detective-game players; readers who enjoy unreliable testimony and office-scale drama; players who prefer deduction over reflex and choice-driven branching.",
+    "production_complexity": "Low. A document and testimony database, a linking interface, twelve interview scenes built from 2D portraits and static or lightly animated backdrops, and no voice acting. No 3D, no combat, no networking. The main cost is writing and editing a tightly consistent document set, plus QA on contradiction logic.",
+    "monetization_model": "Premium: one-time purchase at launch, with an optional soundtrack and annotated case-file digital companion sold as a bundle."
+  }
+]
